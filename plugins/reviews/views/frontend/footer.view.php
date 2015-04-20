@@ -1,0 +1,1 @@
+<div class="reviews-paginator"><?php Reviews::paginator($current_page, $pages_count, Site::url().'/reviews/');?></div>

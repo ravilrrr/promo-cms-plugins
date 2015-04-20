@@ -1,0 +1,43 @@
+/**
+ * Paginator
+ */
+.reviews-paginator {
+    font-size:16px;
+    margin-top:30px;
+}
+.reviews-paginator strong {
+    font-weight: 700;
+}
+.reviews-paginator a {
+    text-decoration:underline;
+}
+.reviews-paginator a:hover{
+    text-decoration:underline;
+}
+.reviews-paginator .reviews-page{
+    margin-top:3px;
+    overflow:hidden;
+}
+.reviews-paginator .reviews-page span{
+    display:block;
+    float:left;
+    margin-right:5px;
+}
+.reviews-paginator .reviews-page a{
+    display:block;
+    float:left;
+    margin-right:2px;
+    border-radius:3px;
+    padding:3px 5px;
+}
+.reviews-paginator .reviews-page a:hover{
+    background:rgba(100,100,100,.1);
+}
+.reviews-paginator .reviews-page a.current{
+    text-decoration:none;
+    background:rgba(150,150,150,.2);
+}
+
+tr.error-color-reviews td {
+    color:red;
+}
