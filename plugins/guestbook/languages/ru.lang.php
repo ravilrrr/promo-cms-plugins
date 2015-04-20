@@ -2,8 +2,8 @@
 
     return array(
         'guestbook' => array(
-            'Guestbook' => 'Отзывы',
-            'Guestbook plugin for Promo CMS' => 'Плагин позволяет вашим клиентам оставлять отзывы на сайте',
+            'Guestbook' => 'Гостевая книга',
+            'Guestbook plugin for Promo CMS' => 'Плагин позволяет посетителям оставлять сообщения на вашем сайте',
             'Template' => 'Шаблон',
             'Save' => 'Сохранить',
             'Save and Exit' => 'Сохранить и выйти',
@@ -27,7 +27,7 @@
             'Removal was successful' => 'Удаление прошло успешно',
             
             'Guest' => 'Гость',
-            'Add guestbook' => 'Добавить отзыв',
+            'Add guestbook' => 'Отправить сообщение',
             'Your name' => 'Ваше имя',
             'Message' => 'Сообщение',
             'Captcha' => 'Введите код с картинки',
@@ -39,7 +39,7 @@
             'Answer admin' => 'Ответ администратора',
             'Date' => 'Дата',
             'Important' => 'Важно',
-            'Count guestbook' => 'Количество отзывов',
+            'Count guestbook' => 'Количество сообщений',
             'Random 3' => 'Три случайных',
             'Last 3 important' => 'Три последних важных',
             'The number of records per page' => 'Кол-во записей на странице',
@@ -52,7 +52,7 @@
             'Duplicate messages to e-mail' => 'Дублировать сообщения на e-mail',
             'Loading' => 'Идет отправка...',
             'With the last of your message is too early, try a little later.' => 'С последнего вашего сообщения прошло слишком мало времени, попробуйте чуть позже.',
-            'A new guestbook on the site' => 'Новый отзыв на сайте',
+            'A new guestbook on the site' => 'Новое сообщение на сайте',
             'Sure you want to delete all the selected records' => 'Уверены, что хотите удалить все отмеченные записи',
             'Confirmed' => 'Подтверждаю',
             'Notice of the pre-moderation' => 'Спасибо за сообщение! На сайте включена премодерация сообщений, поэтому оно появится сразу как только администратор его проверит.',
