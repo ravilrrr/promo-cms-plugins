@@ -1,0 +1,43 @@
+/**
+ * Paginator
+ */
+.guestbook-paginator {
+    font-size:16px;
+    margin-top:30px;
+}
+.guestbook-paginator strong {
+    font-weight: 700;
+}
+.guestbook-paginator a {
+    text-decoration:underline;
+}
+.guestbook-paginator a:hover{
+    text-decoration:underline;
+}
+.guestbook-paginator .guestbook-page{
+    margin-top:3px;
+    overflow:hidden;
+}
+.guestbook-paginator .guestbook-page span{
+    display:block;
+    float:left;
+    margin-right:5px;
+}
+.guestbook-paginator .guestbook-page a{
+    display:block;
+    float:left;
+    margin-right:2px;
+    border-radius:3px;
+    padding:3px 5px;
+}
+.guestbook-paginator .guestbook-page a:hover{
+    background:rgba(100,100,100,.1);
+}
+.guestbook-paginator .guestbook-page a.current{
+    text-decoration:none;
+    background:rgba(150,150,150,.2);
+}
+
+tr.error-color-guestbook td {
+    color:red;
+}
