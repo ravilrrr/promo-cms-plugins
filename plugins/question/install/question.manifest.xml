@@ -5,7 +5,7 @@
     <plugin_priority>15</plugin_priority>
     <plugin_name>Question</plugin_name>
     <plugin_description>Question plugin for Promo CMS</plugin_description>
-    <plugin_version>1.0.0 beta</plugin_version>
+    <plugin_version>1.0.0</plugin_version>
     <plugin_author>JINN</plugin_author>
     <plugin_author_uri>http://cms.promo360.ru</plugin_author_uri>
 </root>

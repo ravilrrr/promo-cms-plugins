@@ -27,9 +27,9 @@
             'Removal was successful' => 'Removal was successful',
             
             'Guest' => 'Guest',
-            'Add question' => 'Add question',
+            'Add question' => 'Ask a question',
             'Your name' => 'Your name',
-            'Message' => 'Message',
+            'Message' => 'Question',
             'Captcha' => 'Captcha',
             'Captcha code is wrong' => 'Captcha code is wrong',
             'Message empty' => 'Enter the message',

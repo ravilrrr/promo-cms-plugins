@@ -7,7 +7,7 @@
  *  @subpackage Plugins
  *  @author Yudin Evgeniy / JINN
  *  @copyright 2013-2015 Yudin Evgeniy / JINN
- *  @version 1.0.0 beta
+ *  @version 1.0.0
  *
  */
 
@@ -15,7 +15,7 @@
 Plugin::register( __FILE__,
                 __('Question', 'question'),
                 __('Question plugin for Promo CMS', 'question'),
-                '1.0.0 beta',
+                '1.0.0',
                 'JINN',
                 'http://cms.promo360.ru',
                 'question');
