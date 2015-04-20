@@ -1,0 +1,1 @@
+<div class="question-paginator"><?php Question::paginator($current_page, $pages_count, Site::url().'/question/');?></div>

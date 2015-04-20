@@ -1,0 +1,43 @@
+/**
+ * Paginator
+ */
+.question-paginator {
+    font-size:16px;
+    margin-top:30px;
+}
+.question-paginator strong {
+    font-weight: 700;
+}
+.question-paginator a {
+    text-decoration:underline;
+}
+.question-paginator a:hover{
+    text-decoration:underline;
+}
+.question-paginator .question-page{
+    margin-top:3px;
+    overflow:hidden;
+}
+.question-paginator .question-page span{
+    display:block;
+    float:left;
+    margin-right:5px;
+}
+.question-paginator .question-page a{
+    display:block;
+    float:left;
+    margin-right:2px;
+    border-radius:3px;
+    padding:3px 5px;
+}
+.question-paginator .question-page a:hover{
+    background:rgba(100,100,100,.1);
+}
+.question-paginator .question-page a.current{
+    text-decoration:none;
+    background:rgba(150,150,150,.2);
+}
+
+tr.error-color-question td {
+    color:red;
+}
