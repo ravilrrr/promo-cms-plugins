@@ -1,0 +1,23 @@
+ul.stock {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+ul.stock > li {
+    display: -moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+    vertical-align:text-top;
+    margin:0 8px 15px 8px;
+    text-decoration:none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+ul.stock > li > a {
+
+}
+ul.stock > li > a > img {
+    display:block;
+}
