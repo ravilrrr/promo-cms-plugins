@@ -1,0 +1,18 @@
+# ignore os/app generated files
+Thumbs.db
+
+# Exclude all
+/*
+
+!/plugins/
+/plugins/.htaccess
+/plugins/blog/
+/plugins/box/
+/plugins/captcha/
+/plugins/codemirror/
+/plugins/markitup/
+/plugins/markdown/
+
+
+!/.gitignore
+!/README.md
