@@ -1,0 +1,1 @@
+td.showDragHandle {    background-image: url(@site_url/plugins/forms/lib/backend/updown.png);    background-repeat: no-repeat;    background-position: center center;    cursor: move;}

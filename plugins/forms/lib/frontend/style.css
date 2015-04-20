@@ -1,0 +1,115 @@
+/* forms left template */
+.forms-left.forms-table {
+    display:table;
+    width:100%;
+}
+.forms-left .forms-item {
+    display:table-row;
+}
+.forms-left .forms-label, .forms-left .forms-field {
+    display:table-cell;
+    vertical-align:top;
+    padding-bottom:15px;
+}
+
+.forms-left .forms-label {
+    width:30%;
+    font-weight:bold;
+    padding-right:5px;
+}
+.forms-left .forms-field {
+    width:70%;
+}
+
+/* forms top template */
+.forms-top.forms-table {
+    width:100%;
+}
+.forms-top .forms-item {
+    margin-top:10px;
+}
+.forms-top .forms-label, .forms-top .forms-field {
+    vertical-align:top;
+    padding-bottom:10px;
+}
+
+.forms-top .forms-label {
+    font-weight:bold;
+}
+.forms-top .forms-field {
+
+}
+.forms-top .forms-nolabel .forms-label {
+    display:none;
+}
+
+/* forms inside template */
+.forms-inside.forms-table {
+    width:100%;
+}
+.forms-inside .forms-item {
+    margin-top:10px;
+}
+.forms-inside .forms-label {
+    font-weight:bold;
+}
+.forms-inside .forms-field {
+
+}
+
+
+
+
+/* other */
+.forms-subtitle {
+    font-size:120%;
+    font-weight:bold;
+    padding-top:10px;
+}
+
+.forms-comment {
+    font-size:11px;
+    color:#888;
+    font-weight:normal;
+}
+
+.forms-width25 {width:25%}
+.forms-width50 {width:50%}
+.forms-width75 {width:75%}
+.forms-width100 {width:100%}
+
+.forms-field textarea, 
+.forms-field input[type="text"], 
+.forms-field input[type="email"], 
+.forms-field input[type="name"], 
+.forms-field input[type="tel"], 
+.forms-field select {
+    padding:5px;
+    color:#333;
+    border:1px solid #ccc;
+    min-height:30px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.forms-field button[type="submit"] {
+    padding:7px 30px;
+    cursor:pointer;
+    margin-top:5px;
+}
+
+.forms-field textarea {
+    height:100px;
+}
+
+.forms-required div::after {
+    content:" *";
+    color:red;
+    font-weight:bold;
+}
+
+.forms-hide {display:none;}
+.forms-left {text-align:left;}
+.forms-center {text-align:center;}
+.forms-right {text-align:right;}
