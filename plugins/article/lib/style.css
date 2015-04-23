@@ -1,0 +1,87 @@
+/**
+ * Article list
+ */
+#article {
+
+}
+#article .article-fleft {
+    float:left;
+}
+#article .article-fright {
+    float:right;
+}
+#article a.article-more {
+    padding:3px 10px;
+    background:rgba(160,160,160,.1);
+    border-radius:5px;
+    text-decoration:none;
+}
+#article a.article-more:hover {
+    background:rgba(200,200,200,.1);
+}
+#article #article-list{
+    overflow:hidden;
+}
+#article .article-item{
+    overflow:hidden;
+}
+#article .article-item h2{
+
+}
+#article .article-item .article-content{
+    overflow:hidden;
+}
+#article .article-item .article-content .article-avatar{
+    display:block;
+    float:left;
+    margin:0 15px 5px 0;
+}
+#article .article-item .article-status{
+    clear:both;
+    background:rgba(160,160,160,.1);
+    padding:3px 5px;
+    margin:10px 0 17px 0;
+    font-size:11px;
+    border-radius:3px;
+    overflow:hidden;
+    line-height:16px;
+}
+/**
+ * Paginator
+ */
+#article #article-paginator {
+    font-size:16px;
+    margin-top:20px;
+}
+#article #article-paginator strong {
+    font-weight: 700;
+}
+#article #article-paginator a {
+    text-decoration:underline;
+}
+#article #article-paginator a:hover{
+    text-decoration:underline;
+}
+#article #article-paginator #article-page{
+    margin-top:3px;
+    overflow:hidden;
+}
+#article #article-paginator #article-page span{
+    display:block;
+    float:left;
+    margin-right:5px;
+}
+#article #article-paginator #article-page a{
+    display:block;
+    float:left;
+    margin-right:2px;
+    border-radius:3px;
+    padding:3px 5px;
+}
+#article #article-paginator #article-page a:hover{
+    background:rgba(100,100,100,.1);
+}
+#article #article-paginator #article-page a.current{
+    text-decoration:none;
+    background:rgba(150,150,150,.2);
+}
