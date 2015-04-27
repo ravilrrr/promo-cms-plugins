@@ -1,0 +1,18 @@
+#maps {
+    margin-top:10px;
+}
+#maps .maps-address {
+    padding:11px;
+    cursor:pointer;
+}
+#maps .maps-address b{
+    display:block;
+}
+#maps .maps-address:hover {
+    background:rgba(150,150,150,.1);
+}
+#maps .maps-address.current {
+    background:rgba(150,150,150,.1);
+    padding:10px;
+    border:1px solid rgba(150,150,150,.2);
+}
